@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		202B2DFF1E6367E10011D0A9 /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202B2DFE1E6367E10011D0A9 /* location.swift */; };
+		203AA0C71E6240EB004A26D4 /* forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203AA0C61E6240EB004A26D4 /* forecast.swift */; };
+		203AA0C91E625455004A26D4 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203AA0C81E625455004A26D4 /* WeatherCell.swift */; };
 		20CAA9631E5F6C7500694BA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAA9621E5F6C7500694BA1 /* AppDelegate.swift */; };
-		20CAA9651E5F6C7500694BA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAA9641E5F6C7500694BA1 /* ViewController.swift */; };
+		20CAA9651E5F6C7500694BA1 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAA9641E5F6C7500694BA1 /* WeatherVC.swift */; };
 		20CAA9681E5F6C7500694BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CAA9661E5F6C7500694BA1 /* Main.storyboard */; };
 		20CAA96B1E5F6C7500694BA1 /* FindMyWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20CAA9691E5F6C7500694BA1 /* FindMyWeather.xcdatamodeld */; };
 		20CAA96D1E5F6C7500694BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20CAA96C1E5F6C7500694BA1 /* Assets.xcassets */; };
 		20CAA9701E5F6C7500694BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CAA96E1E5F6C7500694BA1 /* LaunchScreen.storyboard */; };
+		20CAA97B1E5F88B700694BA1 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAA97A1E5F88B700694BA1 /* constants.swift */; };
+		20CAA97D1E5F8A6B00694BA1 /* currentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CAA97C1E5F8A6B00694BA1 /* currentWeather.swift */; };
+		A8582BAFC918F3291115AB0A /* Pods_FindMyWeather.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5753B059DE68AAE921297F21 /* Pods_FindMyWeather.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		202B2DFE1E6367E10011D0A9 /* location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
+		203AA0C61E6240EB004A26D4 /* forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = forecast.swift; sourceTree = "<group>"; };
+		203AA0C81E625455004A26D4 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		20CAA95F1E5F6C7500694BA1 /* FindMyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CAA9621E5F6C7500694BA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20CAA9641E5F6C7500694BA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20CAA9641E5F6C7500694BA1 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		20CAA9671E5F6C7500694BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20CAA96A1E5F6C7500694BA1 /* FindMyWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindMyWeather.xcdatamodel; sourceTree = "<group>"; };
 		20CAA96C1E5F6C7500694BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20CAA96F1E5F6C7500694BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20CAA9711E5F6C7500694BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CAA97A1E5F88B700694BA1 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		20CAA97C1E5F8A6B00694BA1 /* currentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = currentWeather.swift; sourceTree = "<group>"; };
+		4DDBBE413B568915858433E7 /* Pods-FindMyWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyWeather.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyWeather/Pods-FindMyWeather.release.xcconfig"; sourceTree = "<group>"; };
+		5753B059DE68AAE921297F21 /* Pods_FindMyWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyWeather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD88D2BC395F05FA1096E154 /* Pods-FindMyWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyWeather.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyWeather/Pods-FindMyWeather.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8582BAFC918F3291115AB0A /* Pods_FindMyWeather.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0582466E4AD2459D2F64C8CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD88D2BC395F05FA1096E154 /* Pods-FindMyWeather.debug.xcconfig */,
+				4DDBBE413B568915858433E7 /* Pods-FindMyWeather.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		20CAA9561E5F6C7500694BA1 = {
 			isa = PBXGroup;
 			children = (
 				20CAA9611E5F6C7500694BA1 /* FindMyWeather */,
 				20CAA9601E5F6C7500694BA1 /* Products */,
+				0582466E4AD2459D2F64C8CE /* Pods */,
+				D09F7D5E271823D60A36ED8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +82,11 @@
 		20CAA9611E5F6C7500694BA1 /* FindMyWeather */ = {
 			isa = PBXGroup;
 			children = (
+				20CAA9791E5F883100694BA1 /* Controller */,
+				20CAA9781E5F882B00694BA1 /* View */,
+				20CAA9771E5F882500694BA1 /* Model */,
 				20CAA9621E5F6C7500694BA1 /* AppDelegate.swift */,
-				20CAA9641E5F6C7500694BA1 /* ViewController.swift */,
+				20CAA9641E5F6C7500694BA1 /* WeatherVC.swift */,
 				20CAA9661E5F6C7500694BA1 /* Main.storyboard */,
 				20CAA96C1E5F6C7500694BA1 /* Assets.xcassets */,
 				20CAA96E1E5F6C7500694BA1 /* LaunchScreen.storyboard */,
@@ -67,6 +96,40 @@
 			path = FindMyWeather;
 			sourceTree = "<group>";
 		};
+		20CAA9771E5F882500694BA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20CAA97C1E5F8A6B00694BA1 /* currentWeather.swift */,
+				20CAA97A1E5F88B700694BA1 /* constants.swift */,
+				203AA0C61E6240EB004A26D4 /* forecast.swift */,
+				202B2DFE1E6367E10011D0A9 /* location.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		20CAA9781E5F882B00694BA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				203AA0C81E625455004A26D4 /* WeatherCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		20CAA9791E5F883100694BA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		D09F7D5E271823D60A36ED8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5753B059DE68AAE921297F21 /* Pods_FindMyWeather.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20CAA9741E5F6C7500694BA1 /* Build configuration list for PBXNativeTarget "FindMyWeather" */;
 			buildPhases = (
+				E04CFF3966DCE657A1696D13 /* [CP] Check Pods Manifest.lock */,
 				20CAA95B1E5F6C7500694BA1 /* Sources */,
 				20CAA95C1E5F6C7500694BA1 /* Frameworks */,
 				20CAA95D1E5F6C7500694BA1 /* Resources */,
+				97480560C4CE87D913A9DA70 /* [CP] Embed Pods Frameworks */,
+				8181A40E16F7C4C6038C1E19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,7 +165,7 @@
 				TargetAttributes = {
 					20CAA95E1E5F6C7500694BA1 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 94BQ9T6DER;
+						DevelopmentTeam = Q647QB5339;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,14 +201,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8181A40E16F7C4C6038C1E19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyWeather/Pods-FindMyWeather-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97480560C4CE87D913A9DA70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyWeather/Pods-FindMyWeather-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E04CFF3966DCE657A1696D13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20CAA95B1E5F6C7500694BA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20CAA9651E5F6C7500694BA1 /* ViewController.swift in Sources */,
+				203AA0C71E6240EB004A26D4 /* forecast.swift in Sources */,
+				20CAA9651E5F6C7500694BA1 /* WeatherVC.swift in Sources */,
+				202B2DFF1E6367E10011D0A9 /* location.swift in Sources */,
+				20CAA97D1E5F8A6B00694BA1 /* currentWeather.swift in Sources */,
 				20CAA9631E5F6C7500694BA1 /* AppDelegate.swift in Sources */,
 				20CAA96B1E5F6C7500694BA1 /* FindMyWeather.xcdatamodeld in Sources */,
+				20CAA97B1E5F88B700694BA1 /* constants.swift in Sources */,
+				203AA0C91E625455004A26D4 /* WeatherCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +382,10 @@
 		};
 		20CAA9751E5F6C7500694BA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD88D2BC395F05FA1096E154 /* Pods-FindMyWeather.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 94BQ9T6DER;
+				DEVELOPMENT_TEAM = Q647QB5339;
 				INFOPLIST_FILE = FindMyWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evanlaird.FindMyWeather;
@@ -276,9 +396,10 @@
 		};
 		20CAA9761E5F6C7500694BA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DDBBE413B568915858433E7 /* Pods-FindMyWeather.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 94BQ9T6DER;
+				DEVELOPMENT_TEAM = Q647QB5339;
 				INFOPLIST_FILE = FindMyWeather/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evanlaird.FindMyWeather;
@@ -306,6 +427,7 @@
 				20CAA9761E5F6C7500694BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

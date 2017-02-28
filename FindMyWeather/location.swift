@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import CoreLocation
+
+class Location {
+    static var sharedInstance = Location()
+    private init() {
+        
+    }
+    var lat: Double!
+    var long: Double!
+    
+    
+}

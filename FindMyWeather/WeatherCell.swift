@@ -10,15 +10,30 @@ import UIKit
 
 class WeatherCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    @IBOutlet weak var weatherIcon: UIImageView!
+    
+    @IBOutlet weak var dayLabel: UILabel!
+    
+    @IBOutlet weak var weatherLabel: UILabel!
+    
+    @IBOutlet weak var highTemp: UILabel!
+    
+    @IBOutlet weak var lowTemp: UILabel!
+    
+    func configureCell(forecast: Forecast) {
+        lowTemp.text = "\(forecast.lowTemp)"
+        highTemp.text = "\(forecast.highTemp)"
+        dayLabel.text = forecast.date
+        weatherLabel.text = forecast.weather
+        
+        if forecast.weather == "Rain" {
+            weatherIcon.image = UIImage(named: "Rainy")
+        } else if forecast.weather == "Clouds" {
+            weatherIcon.image = UIImage(named: "Cloudy")
+        } else {
+            weatherIcon.image = UIImage(named: forecast.weather)
+        }
+        
     }
 
 }
